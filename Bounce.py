@@ -8,7 +8,7 @@ game = Tk()
 game.title("Bounce")
 game.resizable(0,0)
 game.wm_attributes("-topmost", 1)
-#game.iconbitmap(file="C:/Users/ISHAAQ MUHAMMAD/Desktop/bounce.png")
+#game.iconbitmap()
 
 canvas = Canvas(game, width=500, height=500, bd=0, highlightthickness=5)
 canvas.pack()
